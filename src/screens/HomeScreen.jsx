@@ -30,7 +30,7 @@ const HomeScreen = () => {
                 Hire me
               </button>
             </a>
-            <a href="/">
+            <a href="./assets/resume.pdf">
               <button className="bg-indigo-100 duration-500 py-3 rounded-md hover:bg-indigo-200 font-bold px-6">
                 <i class="fa-regular fa-file"></i> Resume
               </button>
