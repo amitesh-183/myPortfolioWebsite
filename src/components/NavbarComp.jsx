@@ -3,13 +3,21 @@ import { Link } from "react-router-dom";
 
 const NavbarComp = () => {
   return (
-    <div>
-      <div className="container flex py-8 justify-around gap-96">
-        <div className="justify-start">
-          <h1 className="text-indigo-600 font-black text-3xl">Amitesh</h1>
+    <header>
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div className="flex md:fl lg:flex-1">
+          <Link to="/">
+            <span className="text-indigo-600 absolute font-black text-3xl">
+              Amitesh
+            </span>
+          </Link>
         </div>
-        <div className="">
-          <ul className="flex gap-7">
+        <div className="flex lg:pt-8 md:mr-0 sm:flex-row md:pt-6">
+          <div></div>
+          <ul className="flex lg:flex lg:flex-row gap-7 md:justify-end sm:flex-col sm:hidden">
             <li className="hover:text-indigo-600 hover:scale-110 duration-150 text-lg hover:skew-x-6">
               <a href="#home">Home</a>
             </li>
@@ -27,8 +35,8 @@ const NavbarComp = () => {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

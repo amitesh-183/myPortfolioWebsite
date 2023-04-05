@@ -9,13 +9,13 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="container px-24 py-16 text-center justify-around grid gap-4 grid-cols-3 grid-rows-2">
+      <div className="container px-24 py-16 text-center justify-around grid gap-4 grid-cols-3 grid-rows-2 md:grid-cols-2 md:mx-auto sm:grid-cols-1">
         <a
           href="https://estore.pythonanywhere.com/#/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
             src="./assets/estore.jpg"
             alt=""
           />
@@ -27,7 +27,7 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
             src="./assets/cloneweb.jpg"
             alt=""
           />
@@ -39,7 +39,7 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
             src="./assets/clock.jpg"
             alt=""
           />
@@ -51,7 +51,7 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
             src="./assets/calc.jpg"
             alt=""
           />
@@ -63,7 +63,7 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
             src="./assets/mi.png"
             alt=""
           />
@@ -75,8 +75,8 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
-            className="h-56 w-96 m-auto rounded-2xl"
-            src="./assets/wezion.png"
+            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
+            src="./assets/tumbwe.png"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Wezion</h4>
