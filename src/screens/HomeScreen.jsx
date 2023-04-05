@@ -16,10 +16,10 @@ const HomeScreen = () => {
 
       <div className="lg:relative flex-col-reverse max-w-xs mx-auto pt-8 container lg:pt-24 lg:mb-44 lg:gap-40 lg:px-36 flex lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16">
         <div className="md:text-center md:mx-auto sm:text-center">
-          <h1 className=" text-3xl lg:text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-32 font-bold">
+          <h1 className="mx-auto text-center  text-2xl lg:text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-32 font-bold">
             Hey, I am B.Amitesh <em>Frontend Developer</em>
           </h1>
-          <p className="text-center p-4 lg:py-6 lg:text-left lg:px-0 font-medium md:px-20 md:py-6 md:mx-auto sm:px-16 sm:py-6">
+          <p className="text-center mx-auto p-4 lg:py-6 lg:text-left lg:px-0 font-medium md:px-20 md:py-6 md:mx-auto sm:px-16 sm:py-6">
             "Experience the power of clean, responsive design with expertly
             crafted code. Elevate your web presence with our development
             services."

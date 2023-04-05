@@ -16,8 +16,12 @@ const NavbarComp = () => {
           </Link>
         </div>
         <div className="flex lg:pt-8 md:mr-0 sm:flex-row md:pt-6">
-          <div></div>
-          <ul className="flex lg:flex lg:flex-row gap-7 md:justify-end sm:flex-col sm:hidden">
+          <div className=" text-3xl pt-6 lg:hidden md:hidden">
+            <a href="/">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+          </div>
+          <ul className="hidden lg:flex lg:flex-row gap-7 md:flex md:flex-row md:justify-end sm:flex-col">
             <li className="hover:text-indigo-600 hover:scale-110 duration-150 text-lg hover:skew-x-6">
               <a href="#home">Home</a>
             </li>
