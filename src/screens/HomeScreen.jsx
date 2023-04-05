@@ -14,17 +14,17 @@ const HomeScreen = () => {
 
       {/* Hero Section */}
 
-      <div className="relative container lg:pt-24 lg:mb-44 lg:gap-40 lg:px-36 flex lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16">
+      <div className="lg:relative flex-col-reverse max-w-xs mx-auto pt-8 container lg:pt-24 lg:mb-44 lg:gap-40 lg:px-36 flex lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16">
         <div className="md:text-center md:mx-auto sm:text-center">
-          <h1 className="text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-32 font-bold">
+          <h1 className=" text-3xl lg:text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-32 font-bold">
             Hey, I am B.Amitesh <em>Frontend Developer</em>
           </h1>
-          <p className="lg:py-6 lg:text-left lg:px-0 font-medium md:px-20 md:py-6 md:mx-auto sm:px-16 sm:py-6">
+          <p className="text-center p-4 lg:py-6 lg:text-left lg:px-0 font-medium md:px-20 md:py-6 md:mx-auto sm:px-16 sm:py-6">
             "Experience the power of clean, responsive design with expertly
             crafted code. Elevate your web presence with our development
             services."
           </p>
-          <div className="flex lg:gap-4 lg:justify-start md:gap-4 md:justify-center sm:gap-4 sm:justify-center">
+          <div className="gap-4 justify-center flex lg:gap-4 lg:justify-start md:gap-4 md:justify-center sm:gap-4 sm:justify-center">
             <a href="/" className="">
               <button className="bg-indigo-600 py-3 rounded-md hover:bg-indigo-700 font-bold px-6 duration-500 shadow-lg shadow-indigo-100 hover:shadow-indigo-400">
                 Hire me

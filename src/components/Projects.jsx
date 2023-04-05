@@ -9,7 +9,7 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="container px-24 py-16 text-center justify-around grid gap-4 grid-cols-3 grid-rows-2 md:grid-cols-2 md:mx-auto sm:grid-cols-1">
+      <div className="container grid-col-1 mx-auto lg:px-24 lg:py-16 text-center justify-around grid gap-4 lg:grid-cols-4 grid-rows-2 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
         <a
           href="https://estore.pythonanywhere.com/#/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
