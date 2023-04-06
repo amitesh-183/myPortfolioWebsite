@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../components/About";
+import AboutComp from "../components/AboutComp";
 import Contact from "../components/Contact";
 import FooterComp from "../components/FooterComp";
 import NavbarComp from "../components/NavbarComp";
@@ -61,7 +61,7 @@ const HomeScreen = () => {
 
       <Projects />
 
-      <About />
+      <AboutComp />
 
       <Contact />
 
