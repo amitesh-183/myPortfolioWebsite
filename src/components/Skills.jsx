@@ -6,7 +6,7 @@ const skills = () => {
       <h2 className="uppercase font-black justify-center text-3xl text-center mt-20">
         skills
       </h2>
-      <div className="container px-14 mx-auto lg:px-24 py-16 text-center justify-around grid gap-4 lg:grid-cols-4 grid-rows-3 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
+      <div className="container px-16 mx-auto lg:px-24 py-16 text-center justify-around grid gap-4 lg:grid-cols-3 grid-rows-3 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
         <div className=" bg-slate-100 p-8 rounded-lg hover:scale-105 duration-500 hover:shadow-xl">
           <img className="h-28 m-auto" src="./assets/html-5.png" alt="" />
           <h4 className="text-2xl font-bold pt-2">Html</h4>

@@ -5,7 +5,7 @@ const Projects = () => {
     <div>
       <h2
         id="projects"
-        className="uppercase font-black justify-center text-3xl text-center mt-20"
+        className="uppercase font-black justify-center text-3xl text-center mt-2"
       >
         Projects
       </h2>
@@ -36,7 +36,7 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Usability Clone</h4>
-          <span className="flex justify-center pt-2">
+          <span className="flex gap-4 justify-center pt-2">
             FrontEnd |
             <img className="h-7" src="./assets/html-5.png" alt="" />
             <img className="h-7" src="./assets/css.png" alt="" />
@@ -53,7 +53,7 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Clock Using javascript</h4>
-          <span className="flex justify-center pt-2">
+          <span className="flex gap-4 justify-center pt-2">
             FrontEnd |
             <img className="h-7" src="./assets/html-5.png" alt="" />
             <img className="h-7" src="./assets/css.png" alt="" />
@@ -87,7 +87,7 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Mi Store Clone</h4>
-          <span className="flex justify-center pt-2">
+          <span className="flex gap-4 justify-center pt-2">
             FrontEnd |
             <img className="h-7" src="./assets/html-5.png" alt="" />
             <img className="h-7" src="./assets/css.png" alt="" />
@@ -105,7 +105,7 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Wezion</h4>
-          <span className="flex justify-center pt-2">
+          <span className="flex gap-4 justify-center pt-2">
             FrontEnd |
             <img className="h-7" src="./assets/html-5.png" alt="" />
             <img className="h-7" src="./assets/css.png" alt="" />

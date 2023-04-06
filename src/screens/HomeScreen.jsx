@@ -36,14 +36,14 @@ const HomeScreen = () => {
               </button>
             </a>
           </div>
-          <div className=" text-left py-10 font-semibold">
-            <span className="flex gap-4 font-semibold pb-10">
+          <div className="lg:text-left py-10">
+            <span className="flex gap-4 justify-center lg:justify-start font-semibold pb-10">
               {" "}
               <i className="fa-brands fa-github text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
               <i className="fa-brands fa-linkedin text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
               <i className="fa-brands fa-twitter text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
             </span>
-            <span className="flex gap-4 mb-4 font-semibold text-2xl">
+            <span className="flex gap-4 justify-center lg:justify-start mb-4 font-semibold text-2xl">
               Tech Stack |{" "}
               <img className="h-8" src="./assets/atom.png" alt="" />
               <img className="h-6" src="./assets/tail.png" alt="" />
