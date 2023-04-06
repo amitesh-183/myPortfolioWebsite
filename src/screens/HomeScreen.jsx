@@ -1,5 +1,5 @@
 import React from "react";
-import AboutComp from "../components/AboutComp";
+// import AboutComp from "../components/AboutComp";
 import Contact from "../components/Contact";
 import FooterComp from "../components/FooterComp";
 import NavbarComp from "../components/NavbarComp";
