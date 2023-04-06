@@ -2,8 +2,8 @@ import React from "react";
 
 const FooterComp = () => {
   return (
-    <div>
-      <div className="container flex p-3 gap-10 bg-indigo-300 justify-center">
+    <div className="w-full bg-indigo-300">
+      <div className="container flex w-full p-3 mx-auto gap-10 justify-center">
         <div className=" text-lg text-center items-center">
           Copyright &copy; Amitesh 2023
         </div>

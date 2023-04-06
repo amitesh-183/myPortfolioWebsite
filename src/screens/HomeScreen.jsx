@@ -14,15 +14,15 @@ const HomeScreen = () => {
 
       {/* Hero Section */}
 
-      <div className="lg:relative flex-col-reverse max-w-xs mx-auto pt-10 container lg:pt-24 lg:mb-44 lg:gap-40 lg:px-36 flex lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16">
+      <div className=" flex flex-col-reverse mx-auto pt-10 container lg:pt-24 lg:mb-44 lg:flex lg:gap-40 lg:px-36 lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16">
         <div className="md:text-center md:mx-auto sm:text-center">
-          <h1 className="mx-auto text-center pt-6 text-2xl lg:text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-32 font-bold">
+          <h1 className="mx-auto text-center text-2xl lg:text-5xl lg:text-left lg:px-0 lg:mt-10 lg:pt-20 font-bold">
             Hey, I am B.Amitesh <em>Frontend Developer</em>
           </h1>
           <p className="text-center mx-auto p-4 lg:py-6 lg:text-left lg:px-0 font-medium md:px-20 md:py-6 md:mx-auto sm:px-16 sm:py-6">
-            "Experience the power of clean, responsive design with expertly
-            crafted code. Elevate your web presence with our development
-            services."
+            "Hi there! I'm a passionate frontend developer based in Bhilai,
+            Chhattisgarh. I love creating beautiful and functional websites that
+            showcase my skills and creativity."
           </p>
           <div className="gap-4 justify-center flex lg:gap-4 lg:justify-start md:gap-4 md:justify-center sm:gap-4 sm:justify-center">
             <a href="/" className="">
@@ -36,8 +36,22 @@ const HomeScreen = () => {
               </button>
             </a>
           </div>
+          <div className=" text-left py-10 font-semibold">
+            <span className="flex gap-4 font-semibold pb-10">
+              {" "}
+              <i className="fa-brands fa-github text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              <i className="fa-brands fa-linkedin text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              <i className="fa-brands fa-twitter text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+            </span>
+            <span className="flex gap-4 mb-4 font-semibold text-2xl">
+              Tech Stack |{" "}
+              <img className="h-8" src="./assets/atom.png" alt="" />
+              <img className="h-6" src="./assets/tail.png" alt="" />
+              <img className="h-8" src="./assets/js.png" alt="" />
+            </span>
+          </div>
         </div>
-        <div className="flex lg:max-w-lg md:max-w-sm md:mx-auto sm:max-w-xs sm:mx-auto">
+        <div className="max-w-sm lg:max-w-xl lg:mx-auto md:max-w-sm md:mx-auto sm:max-w-xs sm:mx-auto">
           <img src="./assets/hero.png" alt="developer" />
         </div>
       </div>

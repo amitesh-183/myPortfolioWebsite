@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className="contact container text-center py-4" id="contact">
+      <div className="contact container mx-auto text-center py-4" id="contact">
         <h2 className="uppercase font-black justify-center text-3xl mt-20">
           Contact Me
         </h2>
@@ -30,11 +30,11 @@ const Contact = () => {
             </div>
             <div>
               <textarea
-                className="lg:p-6 rounded-md outline-none hover:shadow-violet-300 duration-500 shadow-slate-900 shadow-md bg-slate-200 mt-8 p-4"
+                className=" max-w-xs lg:max-w-2xl md:max-w-xl rounded-md outline-none hover:shadow-violet-300 duration-500 shadow-slate-900 shadow-md bg-slate-200 mt-8 p-4"
                 name="message"
                 id=""
                 placeholder="Your Message"
-                cols="40"
+                cols="60"
                 rows="8"
               ></textarea>
             </div>

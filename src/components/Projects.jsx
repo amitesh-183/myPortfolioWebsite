@@ -20,7 +20,11 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">E-Commerce Website</h4>
-          <p>Full Stack</p>
+          <span className="flex gap-4 justify-center pt-2">
+            Full Stack |
+            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
+            <i class="fa-brands fa-python text-2xl text-yellow-400"></i>
+          </span>
         </a>
         <a
           href="https://amitesh-183.github.io/usabilityclone/"
@@ -31,8 +35,13 @@ const Projects = () => {
             src="./assets/cloneweb.jpg"
             alt=""
           />
-          <h4 className="text-2xl font-bold pt-2">Usability Website Clone</h4>
-          <p>Full Stack</p>
+          <h4 className="text-2xl font-bold pt-2">Usability Clone</h4>
+          <span className="flex justify-center pt-2">
+            FrontEnd |
+            <img className="h-7" src="./assets/html-5.png" alt="" />
+            <img className="h-7" src="./assets/css.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" />
+          </span>
         </a>
         <a
           href="https://amitesh-183.github.io/clock/"
@@ -44,9 +53,14 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Clock Using javascript</h4>
-          <p>Full Stack</p>
+          <span className="flex justify-center pt-2">
+            FrontEnd |
+            <img className="h-7" src="./assets/html-5.png" alt="" />
+            <img className="h-7" src="./assets/css.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" />
+          </span>
         </a>
-        <a
+        {/* <a
           href="https://"
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
@@ -55,9 +69,14 @@ const Projects = () => {
             src="./assets/calc.jpg"
             alt=""
           />
-          <h4 className="text-2xl font-bold pt-2">Calculator - javascript</h4>
-          <p>Full Stack</p>
-        </a>
+          <h4 className="text-2xl font-bold pt-2">Calculator</h4>
+          <span className="flex justify-center pt-2">
+            FrontEnd |
+            <img className="h-7" src="./assets/html-5.png" alt="" />
+            <img className="h-7" src="./assets/css.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" />
+          </span>
+        </a> */}
         <a
           href="https://mistorclon.netlify.app/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
@@ -68,7 +87,13 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Mi Store Clone</h4>
-          <p>Full Stack</p>
+          <span className="flex justify-center pt-2">
+            FrontEnd |
+            <img className="h-7" src="./assets/html-5.png" alt="" />
+            <img className="h-7" src="./assets/css.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" />
+            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
+          </span>
         </a>
         <a
           href="https://wezion.netlify.app"
@@ -80,7 +105,13 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Wezion</h4>
-          <p>Full Stack</p>
+          <span className="flex justify-center pt-2">
+            FrontEnd |
+            <img className="h-7" src="./assets/html-5.png" alt="" />
+            <img className="h-7" src="./assets/css.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" />
+            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
+          </span>
         </a>
       </div>
     </div>
