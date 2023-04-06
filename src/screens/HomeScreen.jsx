@@ -61,7 +61,7 @@ const HomeScreen = () => {
 
       <Projects />
 
-      <AboutComp />
+      {/*<AboutComp />*/}
 
       <Contact />
 
