@@ -39,9 +39,27 @@ const HomeScreen = () => {
           <div className="lg:text-left py-10">
             <span className="flex gap-4 justify-center lg:justify-start font-semibold pb-10">
               {" "}
-              <i className="fa-brands fa-github text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
-              <i className="fa-brands fa-linkedin text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
-              <i className="fa-brands fa-twitter text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              <a
+                href="https://github.com/amitesh-183"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-github text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/bamitesh183"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-linkedin text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              </a>
+              <a
+                href="https://twitter.com/amitesh_exe"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-twitter text-3xl hover:scale-125 duration-300 ease-in-out hover:drop-shadow-2xl hover:text-indigo-600"></i>
+              </a>
             </span>
             <span className="flex gap-4 justify-center lg:justify-start mb-4 font-semibold text-2xl">
               Tech Stack |{" "}
