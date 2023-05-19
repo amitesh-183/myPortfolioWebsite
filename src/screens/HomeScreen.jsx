@@ -5,6 +5,7 @@ import FooterComp from "../components/FooterComp";
 import NavbarComp from "../components/NavbarComp";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import "../styles/home.sass"
 
 const HomeScreen = () => {
   return (
@@ -63,9 +64,9 @@ const HomeScreen = () => {
             </span>
             <span className="flex gap-4 justify-center lg:justify-start mb-4 font-semibold text-2xl">
               Tech Stack |{" "}
-              <img className="h-8" src="./assets/atom.png" alt="" />
-              <img className="h-6" src="./assets/tail.png" alt="" />
-              <img className="h-8" src="./assets/js.png" alt="" />
+              <img className="tech h-8" src="./assets/atom.png" alt="" />
+              <img className="tech h-6" src="./assets/tail.png" alt="" />
+              <img className="tech h-8" src="./assets/js.png" alt="" />
             </span>
           </div>
         </div>
