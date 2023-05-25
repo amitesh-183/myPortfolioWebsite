@@ -9,6 +9,7 @@ import "../styles/home.scss";
 import { useEffect, useState } from "react";
 import PuffLoader from "react-spinners/PuffLoader";
 import Journey from "../components/Journey";
+import Certificates from "../components/Certificates";
 
 const override = {
   display: "block",
@@ -48,7 +49,7 @@ const HomeScreen = () => {
             data-aos="fade-up-right"
             data-aos-duration="2000"
             data-aos-offset="500"
-            className=" absolute lg:h-[24rem] lg:flex hidden lg:w-[30rem]"
+            className="absolute left-0 lg:h-[24rem] lg:flex hidden lg:w-[30rem]"
           >
             <img src="./assets/web.png" alt="" />
           </div>
@@ -145,7 +146,8 @@ const HomeScreen = () => {
           <Projects />
 
           <Journey />
-          {/*<AboutComp />*/}
+
+          <Certificates />
 
           <Contact />
 

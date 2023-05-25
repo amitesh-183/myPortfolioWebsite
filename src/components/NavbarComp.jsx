@@ -59,10 +59,10 @@ const NavbarComp = () => {
             Education
           </a>
           <a
-            href="#document"
+            href="#certificates"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Documents
+            Certificates
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
