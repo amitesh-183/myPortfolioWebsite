@@ -27,7 +27,7 @@ const Projects = () => {
             src="./assets/estore.jpg"
             alt=""
           />
-          <h4 className="text-2xl font-bold pt-2">E-Commerce Website</h4>
+          <h4 className="text-2xl font-bold pt-2">E-Commerce Web App</h4>
           <span className="flex gap-4 justify-center pt-2">
             Full Stack |
             <i class="fa-brands fa-react text-2xl text-blue-600"></i>
