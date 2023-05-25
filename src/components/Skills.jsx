@@ -18,7 +18,12 @@ const Skills = () => {
       <h2 className="uppercase font-black justify-center text-3xl text-center mt-20">
         Tech Stack
       </h2>
-      <div className="container px-16 mx-auto lg:mx-auto py-16 text-center justify-around grid gap-4 lg:grid-cols-4 grid-rows-1 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
+      <div
+        className="container px-16 mx-auto lg:mx-auto py-16 text-center justify-around grid gap-4 lg:grid-cols-4 grid-cols-2 grid-rows-1 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <div
           ref={myRef}
           className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 "
@@ -31,7 +36,7 @@ const Skills = () => {
           <SkillComp
             size={150}
             strokeWidth={20}
-            percentage={isVisible ? "76" : "0"}
+            percentage={isVisible ? "90" : "0"}
             color="#7e0cff"
           />
         </div>
@@ -44,7 +49,7 @@ const Skills = () => {
           <SkillComp
             size={150}
             strokeWidth={20}
-            percentage={isVisible ? "76" : "0"}
+            percentage={isVisible ? "85" : "0"}
             color="#7e0cff"
           />
         </div>
@@ -57,7 +62,7 @@ const Skills = () => {
           <SkillComp
             size={150}
             strokeWidth={20}
-            percentage={isVisible ? "50" : "0"}
+            percentage={isVisible ? "90" : "0"}
             color="#7e0cff"
           />
         </div>
@@ -65,6 +70,45 @@ const Skills = () => {
           <img
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
             src="./assets/atom.png"
+            alt=""
+          />
+          <SkillComp
+            size={150}
+            strokeWidth={20}
+            percentage={isVisible ? "70" : "0"}
+            color="#7e0cff"
+          />
+        </div>
+        <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
+          <img
+            className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
+            src="./assets/node.png"
+            alt=""
+          />
+          <SkillComp
+            size={150}
+            strokeWidth={20}
+            percentage={isVisible ? "50" : "0"}
+            color="#7e0cff"
+          />
+        </div>
+        <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
+          <img
+            className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
+            src="./assets/mongo.png"
+            alt=""
+          />
+          <SkillComp
+            size={150}
+            strokeWidth={20}
+            percentage={isVisible ? "40" : "0"}
+            color="#7e0cff"
+          />
+        </div>
+        <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
+          <img
+            className="h-12 ml-8 mt-8 lg:ml-9 lg:mt-12 absolute m-auto"
+            src="./assets/tail.png"
             alt=""
           />
           <SkillComp

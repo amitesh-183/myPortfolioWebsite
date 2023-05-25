@@ -41,12 +41,13 @@ const Contact = () => {
             </div>
             <div>
               <textarea
-                className=" lg:pr-64 mx-auto lg:max-w-sm rounded-md outline-none hover:shadow-violet-300 duration-500 shadow-slate-900 shadow-md bg-slate-200 mt-8 p-4"
+                className=" lg:pr-52 md:pr-12 pr-10
+                mx-auto lg:max-w-md rounded-md outline-none hover:shadow-violet-300 duration-500 shadow-slate-900 shadow-md bg-slate-200 mt-8 p-4"
                 id="message"
                 required
                 name="message"
                 placeholder="Your Message"
-                cols="22"
+                // cols="22"
                 rows="4"
               />
               <ValidationError

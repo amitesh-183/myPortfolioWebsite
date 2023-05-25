@@ -1,6 +1,10 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init();
+  });
   return (
     <div>
       <h2
@@ -9,7 +13,11 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="container grid-col-1 mx-auto lg:px-24 lg:py-16 text-center justify-around grid gap-4 lg:grid-cols-3 grid-rows-2 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
+      <div
+        className="container grid-col-1 mx-auto lg:px-24 lg:py-16 text-center justify-around grid gap-4 lg:grid-cols-3 grid-rows-2 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto"
+        data-aos="zoom-out"
+        data-aos-duration="1500"
+      >
         <a
           href="https://estore.pythonanywhere.com/#/"
           className="p-8 rounded-lg hover:scale-105 duration-500"

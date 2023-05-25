@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Aos from "aos";
 
 // function classNames(...classes) {
 //   return classes.filter(Boolean).join(" ");
@@ -11,10 +12,14 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const NavbarComp = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
-    <header className="bg-white">
+    <header className="bg-white" data-aos="fade-up" data-aos-duration="1000">
       <nav
-        className="mx-auto flex max-w-7xl pt-8 items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex border-b max-w-7xl pt-8 items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -48,7 +53,7 @@ const NavbarComp = () => {
             Projects
           </a>
           <a
-            href="#about"
+            href="#education"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Education
@@ -110,7 +115,7 @@ const NavbarComp = () => {
                 </a>
 
                 <a
-                  href="#about"
+                  href="#education"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-white hover:bg-green-400 hover:scale-100 duration-150 hover:skew-x-2"
                 >
                   Education
