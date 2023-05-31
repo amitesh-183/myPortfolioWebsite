@@ -45,14 +45,14 @@ const HomeScreen = () => {
 
           {/* Hero Section */}
 
-          <div
+          {/* <div
             data-aos="fade-up-right"
             data-aos-duration="2000"
             data-aos-offset="500"
             className="absolute left-0 lg:h-[24rem] lg:flex hidden lg:w-[30rem]"
           >
             <img src="./assets/web.png" alt="" />
-          </div>
+          </div> */}
           <div
             className="flex flex-col-reverse mx-auto pt-10 container lg:pt-24 lg:mb-44 lg:flex lg:gap-40 lg:px-36 lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16"
             data-aos="fade-down"
@@ -61,8 +61,8 @@ const HomeScreen = () => {
             data-aos-offset="500"
           >
             <div className="md:text-center md:mx-auto sm:text-center">
-              <h2 className="border lg:flex hidden mt-10 border-violet-500 pl-14 absolute w-fit px-4 py-2 rounded">
-                Developer
+              <h2 className="border lg:flex hidden mt-10 border-violet-500 absolute w-fit px-4 py-2 rounded">
+                Web Developer
               </h2>
               <h1 className="mx-auto text-center text-4xl lg:text-5xl lg:text-left lg:px-0 lg:mt-8 lg:pt-20 font-bold">
                 Hey, I am B.Amitesh <em>Frontend Developer</em>
