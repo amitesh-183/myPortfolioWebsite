@@ -16,7 +16,10 @@ const Contact = () => {
         <h2 className="uppercase font-black justify-center text-3xl mt-20">
           Contact Me
         </h2>
-        <div className=" m-8 py-8">
+        <div className=" m-8 py-8 flex justify-center">
+          <div>
+            <img src="./assets/contactme.jpg" width={600} alt="" />
+          </div>
           <form onSubmit={handleSubmit} className="grid grid-cols-1 font-bold">
             <div className="rounded-md flex flex-col gap-8">
               <input

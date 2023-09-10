@@ -24,7 +24,7 @@ const NavbarComp = () => {
       >
         <div className="flex lg:flex-1">
           <Link to="/">
-            <span className="text-indigo-600 absolute top-6 font-black text-3xl">
+            <span className="text-indigo-600 absolute top-6 font-black text-4xl">
               Amitesh
             </span>
           </Link>
@@ -39,28 +39,28 @@ const NavbarComp = () => {
             <Bars3Icon className="h-7 w-8" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden uppercase lg:flex lg:gap-x-12">
           <a
             href="#home"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-xl font-semibold leading-6 text-gray-900"
           >
             Home
           </a>
           <a
             href="#projects"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-xl font-semibold leading-6 text-gray-900"
           >
             Projects
           </a>
           <a
             href="#education"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-xl font-semibold leading-6 text-gray-900"
           >
             Education
           </a>
           <a
             href="#certificates"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-xl font-semibold leading-6 text-gray-900"
           >
             Certificates
           </a>
@@ -68,7 +68,7 @@ const NavbarComp = () => {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="#contact"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-xl bg-indigo-600 px-4 py-2 rounded uppercase font-semibold leading-6 text-gray-100"
           >
             Contact <span aria-hidden="true">&rarr;</span>
           </a>
