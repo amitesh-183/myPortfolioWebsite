@@ -81,6 +81,19 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
+            className="h-16 ml-8 mt-8 lg:ml-11 lg:mt-10 absolute m-auto"
+            src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+            alt=""
+          />
+          <SkillComp
+            size={150}
+            strokeWidth={20}
+            percentage={isVisible ? "40" : "0"}
+            color="#7e0cff"
+          />
+        </div>
+        <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
+          <img
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
             src="./assets/node.png"
             alt=""
@@ -114,7 +127,20 @@ const Skills = () => {
           <SkillComp
             size={150}
             strokeWidth={20}
-            percentage={isVisible ? "40" : "0"}
+            percentage={isVisible ? "80" : "0"}
+            color="#7e0cff"
+          />
+        </div>
+        <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
+          <img
+            className="h-16 ml-8 mt-8 lg:ml-9 lg:mt-10 absolute m-auto"
+            src="https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png"
+            alt=""
+          />
+          <SkillComp
+            size={150}
+            strokeWidth={20}
+            percentage={isVisible ? "90" : "0"}
             color="#7e0cff"
           />
         </div>

@@ -24,10 +24,19 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">E-Commerce Web App</h4>
-          <span className="flex gap-4 justify-center pt-2">
-            Full Stack |
-            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
-            <i class="fa-brands fa-python text-2xl text-yellow-400"></i>
+          <span className="flex flex-wrap gap-4 justify-center pt-1 font-semibold">
+            Full-Stack
+            <div className="flex gap-2 justify-center">
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                React Js
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Python
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Django
+              </span>
+            </div>
           </span>
         </a>
         <a
@@ -40,11 +49,22 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Usability Clone</h4>
-          <span className="flex gap-4 justify-center pt-2">
-            FrontEnd |
-            <img className="h-7" src="./assets/html-5.png" alt="" />
+          <span className="flex flex-wrap gap-4 font-semibold justify-center pt-2">
+            Frontend
+            {/* <img className="h-7" src="./assets/html-5.png" alt="" />
             <img className="h-7" src="./assets/css.png" alt="" />
-            <img className="h-7" src="./assets/js.png" alt="" />
+            <img className="h-7" src="./assets/js.png" alt="" /> */}
+            <div className="flex gap-2 justify-center">
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Html
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                CSS
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Javascript
+              </span>
+            </div>
           </span>
         </a>
         <a
@@ -57,30 +77,21 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Clock Using javascript</h4>
-          <span className="flex gap-4 justify-center pt-2">
-            FrontEnd |
-            <img className="h-7" src="./assets/html-5.png" alt="" />
-            <img className="h-7" src="./assets/css.png" alt="" />
-            <img className="h-7" src="./assets/js.png" alt="" />
+          <span className="flex flex-wrap gap-4 font-semibold justify-center pt-2">
+            Frontend
+            <div className="flex gap-2 justify-center">
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Html
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                CSS
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Javascript
+              </span>
+            </div>
           </span>
         </a>
-        {/* <a
-          href="https://"
-          className="p-8 rounded-lg hover:scale-105 duration-500"
-        >
-          <img
-            className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/calc.jpg"
-            alt=""
-          />
-          <h4 className="text-2xl font-bold pt-2">Calculator</h4>
-          <span className="flex justify-center pt-2">
-            FrontEnd |
-            <img className="h-7" src="./assets/html-5.png" alt="" />
-            <img className="h-7" src="./assets/css.png" alt="" />
-            <img className="h-7" src="./assets/js.png" alt="" />
-          </span>
-        </a> */}
         <a
           href="https://mistorclon.netlify.app/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
@@ -91,12 +102,22 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Mi Store Clone</h4>
-          <span className="flex gap-4 justify-center pt-2">
-            FrontEnd |
-            <img className="h-7" src="./assets/html-5.png" alt="" />
-            <img className="h-7" src="./assets/css.png" alt="" />
-            <img className="h-7" src="./assets/js.png" alt="" />
-            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
+          <span className="flex flex-wrap gap-4 font-semibold justify-center pt-2">
+            Frontend
+            <div className="flex gap-2 justify-center">
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Html
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                CSS
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Javascript
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                React Js
+              </span>
+            </div>
           </span>
         </a>
         <a
@@ -109,12 +130,22 @@ const Projects = () => {
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Wezion</h4>
-          <span className="flex gap-4 justify-center pt-2">
-            FrontEnd |
-            <img className="h-7" src="./assets/html-5.png" alt="" />
-            <img className="h-7" src="./assets/css.png" alt="" />
-            <img className="h-7" src="./assets/js.png" alt="" />
-            <i class="fa-brands fa-react text-2xl text-blue-600"></i>
+          <span className="flex flex-wrap gap-4 justify-center pt-2">
+            Frontend
+            <div className="flex gap-2 justify-center">
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Html
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                CSS
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                Javascript
+              </span>
+              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+                React Js
+              </span>
+            </div>
           </span>
         </a>
       </div>

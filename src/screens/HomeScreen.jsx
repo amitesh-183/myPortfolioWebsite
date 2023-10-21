@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import PuffLoader from "react-spinners/PuffLoader";
 import Journey from "../components/Journey";
 import Certificates from "../components/Certificates";
+import OpenSource from "../components/OpenSource";
 
 const override = {
   display: "block",
@@ -73,7 +74,7 @@ const HomeScreen = () => {
                 that showcase my skills and creativity."
               </p>
               <div className="gap-4 justify-center flex lg:gap-4 lg:justify-start md:gap-4 md:justify-center sm:gap-4 sm:justify-center">
-                <a href="/" className="">
+                <a href="#contact" className="">
                   <button className="bg-indigo-600 py-3 rounded-md hover:bg-indigo-700 font-bold px-6 duration-500 shadow-lg shadow-indigo-100 hover:shadow-indigo-400">
                     Hire me
                   </button>
@@ -114,7 +115,7 @@ const HomeScreen = () => {
                   <img
                     style={{ animationDelay: "0.3s" }}
                     className="tech h-8"
-                    src="./assets/atom.png"
+                    src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"
                     alt=""
                   />
                   <img
@@ -144,6 +145,8 @@ const HomeScreen = () => {
           <Skills />
 
           <Projects />
+
+          <OpenSource />
 
           <Journey />
 

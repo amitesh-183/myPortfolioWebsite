@@ -12,7 +12,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <div className="contact container mx-auto text-center py-4" id="contact">
+      <div className="contact container mx-auto text-center py-8" id="contact">
         <h2 className="uppercase font-black justify-center text-3xl mt-20">
           Contact Me
         </h2>

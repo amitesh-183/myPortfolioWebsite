@@ -3,7 +3,7 @@ import "../styles/certificates.scss";
 
 export default function Certificates() {
   return (
-    <div id="certificates">
+    <div id="certificates" className="py-16">
       <h2
         id="projects"
         className="uppercase font-black justify-center text-3xl text-center mt-2"
