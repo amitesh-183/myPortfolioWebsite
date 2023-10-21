@@ -5,7 +5,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xoqzkoow");
   if (state.succeeded) {
     return (
-      <p className="flex text-center font-bold text-xl shadow-2xl shadow-black">
+      <p className="flex flex-col md:flex-row text-center font-bold text-xl shadow-2xl shadow-black">
         Thanks for joining!
       </p>
     );
