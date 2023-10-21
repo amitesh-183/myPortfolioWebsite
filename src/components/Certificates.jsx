@@ -10,7 +10,7 @@ export default function Certificates() {
       >
         Certificates
       </h2>
-      <div className="container flex px-28 gap-4 justify-center py-6">
+      <div className="container flex flex-col md:flex-row px-10 md:px-28 gap-4 justify-center py-6">
         <div>
           <div className=" cursor-pointer px-2 bg-violet-300 hover:shadow-md hover:shadow-violet-900 duration-500 py-28 rounded-xl">
             <a

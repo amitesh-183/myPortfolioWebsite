@@ -5,7 +5,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xoqzkoow");
   if (state.succeeded) {
     return (
-      <p className="flex flex-col md:flex-row text-center font-bold text-xl shadow-2xl shadow-black">
+      <p className="flex text-center font-bold text-xl shadow-2xl shadow-black">
         Thanks for joining!
       </p>
     );
@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className="uppercase font-black justify-center text-3xl mt-20">
           Contact Me
         </h2>
-        <div className=" m-8 py-8 flex justify-center">
+        <div className=" m-8 py-8 flex flex-col md:flex-row justify-center">
           <div>
             <img src="./assets/contactme.jpg" width={600} alt="" />
           </div>

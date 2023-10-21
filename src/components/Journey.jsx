@@ -6,7 +6,7 @@ export default function Journey() {
       <h2 className="uppercase font-black justify-center text-3xl text-center mt-20">
         Journey
       </h2>
-      <p className="text-center font-medium pb-8">
+      <p className="text-center font-medium md:pb-8">
         My Journey of becoming Web Developer
       </p>
 

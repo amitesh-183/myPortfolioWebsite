@@ -21,17 +21,17 @@ export default function OpenSource() {
           />
           <h4 className="text-2xl font-bold pt-2">Fresh Nest</h4>
           <span className="flex gap-4 justify-center pt-2">
-            <div className="flex gap-2 justify-center">
+            <div className="flex gap-2 flex-wrap justify-center">
               <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Dart
               </span>
               <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 React JS
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span class="text-sm text-white flex-grow font-semibold rounded px-2 py-1 bg-indigo-400">
                 Javascript
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span class="text-sm text-white flex-grow font-semibold rounded px-2 py-1 bg-indigo-400">
                 Swift
               </span>
             </div>
