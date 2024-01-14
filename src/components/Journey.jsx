@@ -61,6 +61,20 @@ export default function Journey() {
               </p>
             </div>
           </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2023-2024</div>
+            <div className="timeline-content">
+              <h3>MERN Stack</h3>
+              <p>
+                Currently working on an organization called Globussoft as a
+                UI/UX Developer. Learning MERN Stack Developer along-side. By
+                this time, I have gained A lot of experience in industry learned
+                lots of new techs and also worked on some projects and freelance
+                projects which has significantly improved my coding journey.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

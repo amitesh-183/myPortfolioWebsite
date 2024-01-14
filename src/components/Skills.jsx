@@ -19,7 +19,7 @@ const Skills = () => {
         Tech Stack
       </h2>
       <div
-        className="container px-16 mx-auto lg:mx-auto py-16 text-center justify-center md:justify-around grid gap-4 lg:grid-cols-4 grid-cols-1 grid-rows-auto md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto"
+        className="p-16 2xl:justify-start xl:justify-start lg:justify-start md:justify-evenly justify-center flex flex-wrap"
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
