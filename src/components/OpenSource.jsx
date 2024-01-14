@@ -9,7 +9,7 @@ export default function OpenSource() {
       >
         Open-Source Contribution
       </h2>
-      <div className="flex flex-wrap justify-center mx-auto lg:px-24 lg:py-16  sm:mx-auto">
+      <div className="flex flex-wrap text-center justify-center mx-auto lg:px-24 lg:py-16  sm:mx-auto">
         <a
           href="https://fresh-nest.netlify.app/"
           className="p-8 rounded-lg hover:scale-105 duration-500"

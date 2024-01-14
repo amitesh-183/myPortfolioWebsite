@@ -13,7 +13,7 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center text-center">
         <a
           href="https://estore.pythonanywhere.com/#/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
