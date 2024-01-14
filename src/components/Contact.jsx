@@ -12,15 +12,20 @@ const Contact = () => {
   }
   return (
     <div>
-      <div className="contact container mx-auto text-center py-8" id="contact">
+      <div className="contact mx-auto text-center py-8" id="contact">
         <h2 className="uppercase font-black justify-center text-3xl mt-20">
           Contact Me
         </h2>
         <div className=" m-8 py-8 flex flex-col md:flex-row justify-center">
           <div>
-            <img src="./assets/contactme.jpg" width={600} alt="" />
+            <img
+              loading="lazy"
+              src="./assets/contactme.webp"
+              width={600}
+              alt=""
+            />
           </div>
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 font-bold">
+          <form onSubmit={handleSubmit} className=" font-bold">
             <div className="rounded-md flex flex-col gap-8">
               <input
                 className="rounded-md lg:pr-48 p-4 mx-auto outline-none shadow-slate-900 shadow-md bg-slate-200 hover:shadow-violet-300 duration-500"
@@ -62,7 +67,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="mx-auto lg:flex lg:mx-auto px-10 font-black text-lg duration-500 cursor-pointer hover:bg-indigo-700 rounded-lg mt-6 py-4 flex justify-center shadow-lg shadow-indigo-500/40 hover:shadow-indigo-600  bg-indigo-600"
+              className="mx-auto lg:flex lg:mx-auto px-10 font-black text-lg duration-500 cursor-pointer hover:bg-indigo-700 rounded-lg mt-6 py-4 flex justify-center shadow-lg shadow-indigo-500/40 text-white hover:shadow-indigo-600  bg-indigo-600"
             >
               Send Message
             </button>

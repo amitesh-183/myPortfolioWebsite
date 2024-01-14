@@ -24,7 +24,7 @@ const HomeScreen = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 500);
   }, []);
 
   return (
@@ -33,7 +33,7 @@ const HomeScreen = () => {
         <PuffLoader
           color="#7c3aed"
           loading={loading}
-          size={150}
+          size={100}
           cssOverride={override}
           aria-label="Loading Spinner"
           data-testid="loader"
@@ -55,13 +55,13 @@ const HomeScreen = () => {
             <img src="./assets/web.png" alt="" />
           </div> */}
           <div
-            className="flex flex-col-reverse mx-auto pt-10 container lg:pt-24 lg:mb-44 lg:flex lg:gap-40 lg:px-36 lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16"
+            className="flex flex-col-reverse mx-auto pt-10 lg:pt-24 lg:mb-44 lg:flex lg:gap-40 lg:px-36 px-8 items-center lg:flex-row justify-around md:flex-col-reverse md:pt-8 md:mx-auto  sm:flex-col-reverse sm:pt-16"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="2500"
+            data-aos-duration="1500"
             data-aos-offset="500"
           >
-            <div className="md:text-center md:mx-auto sm:text-center">
+            <div className="lg:w-[40%] sm:w-full w-full md:text-center md:mx-auto sm:text-center">
               <h2 className="border lg:flex hidden mt-10 border-violet-500 absolute w-fit px-4 py-2 rounded">
                 Web Developer
               </h2>
@@ -75,13 +75,13 @@ const HomeScreen = () => {
               </p>
               <div className="gap-4 justify-center flex lg:gap-4 lg:justify-start md:gap-4 md:justify-center sm:gap-4 sm:justify-center">
                 <a href="#contact" className="">
-                  <button className="bg-indigo-600 py-3 rounded-md hover:bg-indigo-700 font-bold px-6 duration-500 shadow-lg shadow-indigo-100 hover:shadow-indigo-400">
+                  <button className="bg-indigo-600 py-3 rounded-md hover:bg-indigo-700 font-bold px-6 duration-500 shadow-lg text-white shadow-indigo-100 hover:shadow-indigo-400">
                     Hire me
                   </button>
                 </a>
                 <a href="./assets/B.Amitesh.pdf">
                   <button className="bg-indigo-100 duration-500 py-3 rounded-md hover:bg-indigo-200 font-bold px-6 shadow-lg shadow-indigo-100 hover:shadow-indigo-400">
-                    <i class="fa-regular fa-file"></i> Resume
+                    <i className="fa-regular fa-file"></i> Resume
                   </button>
                 </a>
               </div>
@@ -121,23 +121,20 @@ const HomeScreen = () => {
                   <img
                     style={{ animationDelay: "0.6s" }}
                     className="tech h-6"
-                    src="./assets/tail.png"
+                    src="./assets/tail.webp"
                     alt=""
                   />
                   <img
                     style={{ animationDelay: "0.9s" }}
                     className="tech h-8"
-                    src="./assets/js.png"
+                    src="./assets/js.webp"
                     alt=""
                   />
                 </span>
               </div>
             </div>
-            <div
-              className="max-w-sm lg:max-w-xl lg:mx-auto md:max-w-sm md:mx-auto sm:max-w-xs sm:mx-auto"
-              data-aos="fade-up"
-            >
-              <img src="./assets/hero.png" alt="developer" />
+            <div className="w-[40%] sm:mx-auto" data-aos="fade-up">
+              <img src="./assets/hero.webp" alt="developer" />
             </div>
           </div>
 

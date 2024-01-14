@@ -1,9 +1,1 @@
-.tech {
-  animation: float-tech 1s linear infinite alternate;
-}
-
-@keyframes float-tech {
-  to {
-    transform: translateY(-10px);
-  }
-}
+.tech {animation: float-tech 1s linear infinite alternate;}@keyframes float-tech {to {transform: translateY(-10px);}}

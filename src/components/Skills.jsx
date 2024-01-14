@@ -29,8 +29,9 @@ const Skills = () => {
           className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 "
         >
           <img
+            loading="lazy"
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
-            src="./assets/html-5.png"
+            src="./assets/html-5.webp"
             alt=""
           />
           <SkillComp
@@ -42,8 +43,9 @@ const Skills = () => {
         </div>
         <div className="lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500">
           <img
+            loading="lazy"
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
-            src="./assets/css.png"
+            src="./assets/css.webp"
             alt=""
           />
           <SkillComp
@@ -55,8 +57,9 @@ const Skills = () => {
         </div>
         <div className="lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
-            className=" h-16 ml-12 mt-12 lg:ml-10 lg:mt-10 absolute m-auto"
-            src="./assets/js.png"
+            loading="lazy"
+            className=" h-16 ml-10 mt-10 absolute m-auto"
+            src="./assets/js.webp"
             alt=""
           />
           <SkillComp
@@ -68,8 +71,9 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
-            className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
-            src="./assets/atom.png"
+            loading="lazy"
+            className="h-20 ml-9 mt-9 absolute m-auto"
+            src="./assets/atom.webp"
             alt=""
           />
           <SkillComp
@@ -81,7 +85,7 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
-            className="h-16 ml-8 mt-8 lg:ml-11 lg:mt-10 absolute m-auto"
+            className="h-16 ml-11 mt-11 lg:mt-10 absolute m-auto"
             src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
             alt=""
           />
@@ -94,8 +98,9 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
+            loading="lazy"
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
-            src="./assets/node.png"
+            src="./assets/node.webp"
             alt=""
           />
           <SkillComp
@@ -107,8 +112,9 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
+            loading="lazy"
             className="h-20 ml-8 mt-8 lg:ml-9 lg:mt-9 absolute m-auto"
-            src="./assets/mongo.png"
+            src="./assets/mongo.webp"
             alt=""
           />
           <SkillComp
@@ -120,8 +126,9 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
-            className="h-12 ml-8 mt-8 lg:ml-9 lg:mt-12 absolute m-auto"
-            src="./assets/tail.png"
+            loading="lazy"
+            className="h-12 ml-8 mt-12 lg:ml-9 lg:mt-12 absolute m-auto"
+            src="./assets/tail.webp"
             alt=""
           />
           <SkillComp
@@ -133,7 +140,8 @@ const Skills = () => {
         </div>
         <div className=" lg:mx-auto lg:px-24 p-8 rounded-lg hover:scale-105 duration-500 ">
           <img
-            className="h-16 ml-8 mt-8 lg:ml-9 lg:mt-10 absolute m-auto"
+            loading="lazy"
+            className="h-16 ml-8 mt-10 lg:ml-9 lg:mt-10 absolute m-auto"
             src="https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png"
             alt=""
           />

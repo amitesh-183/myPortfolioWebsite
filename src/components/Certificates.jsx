@@ -10,7 +10,7 @@ export default function Certificates() {
       >
         Certificates
       </h2>
-      <div className="container flex flex-col md:flex-row px-10 md:px-28 gap-4 justify-center py-6">
+      <div className=" flex flex-col md:flex-row px-10 md:px-28 gap-4 justify-center py-6">
         <div>
           <div className=" cursor-pointer px-2 bg-violet-300 hover:shadow-md hover:shadow-violet-900 duration-500 py-28 rounded-xl">
             <a
@@ -19,6 +19,7 @@ export default function Certificates() {
               rel="noopener noreferrer"
             >
               <img
+                loading="lazy"
                 src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg"
                 alt="freecodecamp"
                 className="h-9 object-contain"
@@ -37,6 +38,7 @@ export default function Certificates() {
               rel="noopener noreferrer"
             >
               <img
+                loading="lazy"
                 src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_wordmark.png"
                 alt="Cognitive"
                 className="h-9 w-[16rem] object-contain"

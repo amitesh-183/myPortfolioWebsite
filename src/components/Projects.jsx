@@ -13,27 +13,28 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="container grid-col-1 mx-auto lg:px-24 lg:py-16 text-center justify-around grid gap-4 lg:grid-cols-3 grid-rows-2 md:grid-cols-3 md:mx-auto sm:grid-cols-2 sm:mx-auto">
+      <div className="flex flex-wrap justify-center">
         <a
           href="https://estore.pythonanywhere.com/#/"
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
+            loading="lazy"
             className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/estore.jpg"
+            src="./assets/estore.webp"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">E-Commerce Web App</h4>
           <span className="flex flex-wrap gap-4 justify-center pt-1 font-semibold">
             Full-Stack
             <div className="flex gap-2 justify-center">
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 React Js
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Python
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Django
               </span>
             </div>
@@ -44,8 +45,9 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
+            loading="lazy"
             className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/cloneweb.jpg"
+            src="./assets/cloneweb.webp"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Usability Clone</h4>
@@ -55,13 +57,13 @@ const Projects = () => {
             <img className="h-7" src="./assets/css.png" alt="" />
             <img className="h-7" src="./assets/js.png" alt="" /> */}
             <div className="flex gap-2 justify-center">
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Html
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 CSS
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Javascript
               </span>
             </div>
@@ -72,21 +74,22 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
+            loading="lazy"
             className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/clock.jpg"
+            src="./assets/clock.webp"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Clock Using javascript</h4>
           <span className="flex flex-wrap gap-4 font-semibold justify-center pt-2">
             Frontend
             <div className="flex gap-2 justify-center">
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Html
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 CSS
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Javascript
               </span>
             </div>
@@ -97,24 +100,25 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
+            loading="lazy"
             className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/mi.png"
+            src="./assets/mi.webp"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Mi Store Clone</h4>
           <span className="flex flex-wrap gap-4 font-semibold justify-center pt-2">
             Frontend
             <div className="flex gap-2 justify-center">
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Html
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 CSS
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Javascript
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 React Js
               </span>
             </div>
@@ -125,24 +129,25 @@ const Projects = () => {
           className="p-8 rounded-lg hover:scale-105 duration-500"
         >
           <img
+            loading="lazy"
             className="h-56 w-96 m-auto rounded-2xl shadow-lg"
-            src="./assets/tumbwe.png"
+            src="./assets/tumbwe.webp"
             alt=""
           />
           <h4 className="text-2xl font-bold pt-2">Wezion</h4>
           <span className="flex flex-wrap gap-4 justify-center pt-2">
             Frontend
             <div className="flex gap-2 justify-center">
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Html
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 CSS
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 Javascript
               </span>
-              <span class="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
+              <span className="text-sm text-white font-semibold rounded px-2 py-1 bg-indigo-400">
                 React Js
               </span>
             </div>

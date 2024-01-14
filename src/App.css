@@ -1,9 +1,1 @@
-.contact {
-  /* background-image: url("/public/assets/bg.mp4"); */
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.CircularProgressbar .CircularProgressbar-path {
-  stroke: url(#idCSS);
-}
-
+.contact {background-size: cover;background-repeat: no-repeat;}.CircularProgressbar .CircularProgressbar-path {stroke: url(#idCSS);}

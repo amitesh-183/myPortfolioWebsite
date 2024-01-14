@@ -10,12 +10,12 @@ export default function Journey() {
         My Journey of becoming Web Developer
       </p>
 
-      <section class="timeline-section">
-        <div class="timeline-items">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2018-2020</div>
-            <div class="timeline-content">
+      <section className="timeline-section">
+        <div className="timeline-items">
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2018-2020</div>
+            <div className="timeline-content">
               <h3>Genesis</h3>
               <p>
                 My journey began when, I was first introduced to HTML, Java and
@@ -25,10 +25,10 @@ export default function Journey() {
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2020-23</div>
-            <div class="timeline-content">
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2020-23</div>
+            <div className="timeline-content">
               <h3>Graduation - B.C.A</h3>
               <p>
                 While I found my interest, I opted for B.C.A for graduation,
@@ -37,10 +37,10 @@ export default function Journey() {
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2023</div>
-            <div class="timeline-content">
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2023</div>
+            <div className="timeline-content">
               <h3>Web Development</h3>
               <p>
                 So, while experiencing different technologies, I some how drawn
@@ -48,10 +48,10 @@ export default function Journey() {
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2023</div>
-            <div class="timeline-content">
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2023</div>
+            <div className="timeline-content">
               <h3>Javascript</h3>
               <p>
                 After successfully completing the javascript, I came to know
